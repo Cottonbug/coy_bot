@@ -1,0 +1,26 @@
+{
+  "name": "coy_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "concurrently \"tsc -w\" \"nodemon build/index.js\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 16.6.0"
+  },
+  "devDependencies": {
+    "concurrently": "6.4.0",
+    "nodemon": "^2.0.22",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "discord.js": "14.6.0",
+    "dotenv": "14.3.2"
+  }
+}
